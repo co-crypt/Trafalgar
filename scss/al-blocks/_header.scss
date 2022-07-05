@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    ul {
+        list-style: none;
+        display: flex;
+        li {
+            margin: 0 20px;
+            color: #1f1534;
+            opacity: 0.5;
+            &:nth-child(1) {
+                color: black;
+                opacity: 1;
+            }
+        }
+    }
+}
